@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="261dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vayne" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="399dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="335dp"
+                android:layout_height="36dp"
+                android:cursorVisible="false"
+                android:fadingEdge="none"
+                android:text="Vayne: THE NIGHT HUNTER"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="399dp"
+                android:layout_height="225dp"
+                android:text="Shauna Vayne is a deadly, remorseless Demacian monster hunter, who has dedicated her life to finding and destroying the demon that murdered her family. Armed with a wrist-mounted crossbow and a heart full of vengeance, she is only truly happy when slaying practitioners or creations of the dark arts, striking from the shadows with a flurry of silver bolts."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Abilities"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/night_hunter" />
+
+            <TextView
+                android:id="@+id/textView22"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="NIGHT HUNTER"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="402dp"
+                android:layout_height="101dp"
+                android:text="Passive: Vayne ruthlessly hunts evil-doers, gaining 30 movement speed when moving toward nearby enemy champions."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tumble" />
+
+            <TextView
+                android:id="@+id/textView30"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="TUMBLE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="410dp"
+                android:layout_height="100dp"
+                android:text="Vayne tumbles, maneuvering to carefully place her next shot. Her next attack deals bonus damage."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/silver_bolts" />
+
+            <TextView
+                android:id="@+id/textView23"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="SILVER BOLTS"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="391dp"
+                android:layout_height="142dp"
+                android:text="Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's max health as bonus true damage."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/condemn" />
+
+            <TextView
+                android:id="@+id/textView25"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:text="CONDEMN"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="397dp"
+                android:layout_height="142dp"
+                android:text="Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, knocking them back and dealing damage. If they collide with terrain, they are impaled, dealing bonus damage and stunning them."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/final_hour" />
+
+            <TextView
+                android:id="@+id/textView27"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="FINAL HOUR"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="394dp"
+                android:layout_height="142dp"
+                android:text="Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonus Movement Speed from Night Hunter"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/VayneVideoButton"
+                android:layout_width="414dp"
+                android:layout_height="200dp"
+                android:foreground="@drawable/vayne_video"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="414dp"
+        android:layout_height="243dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image3" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="403dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView31"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="309dp"
+                android:layout_height="39dp"
+                android:cursorVisible="false"
+                android:fadingEdge="none"
+                android:text="Lucian: THE PURIFIER"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="399dp"
+                android:layout_height="220dp"
+                android:text="Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh slew his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Abilities"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lightslinger" />
+
+            <TextView
+                android:id="@+id/textView39"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="LIGHTSLINGER"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView37"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="401dp"
+                android:layout_height="85dp"
+                android:text="Passive: Whenever Lucian uses an ability, his next attack becomes a double-shot."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/piercing_light" />
+
+            <TextView
+                android:id="@+id/textView40"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="PIERCING LIGHT"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="397dp"
+                android:layout_height="77dp"
+                android:text="Lucian shoots a bolt of piercing light through a target."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ardent_blaze" />
+
+            <TextView
+                android:id="@+id/textView41"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="ARDENT BLAZE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="404dp"
+                android:layout_height="119dp"
+                android:text="Lucian shoots a missile that explodes in a star shape, marking and briefly revealing enemies. Lucian gains Movement Speed for attacking marked enemies."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/relentless_pursuit" />
+
+            <TextView
+                android:id="@+id/textView42"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="RELENTLESS PURSUIT"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView34"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="400dp"
+                android:layout_height="101dp"
+                android:text="Lucian quickly dashes a short distance. Lightslinger attacks reduce Relentless Pursuit's cooldown."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/the_culling" />
+
+            <TextView
+                android:id="@+id/textView43"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="THE CULLING"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="400dp"
+                android:layout_height="89dp"
+                android:text="Lucian unleashes a torrent of shots from his weapons."
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/LucianVideoButton"
+                android:layout_width="414dp"
+                android:layout_height="200dp"
+                android:foreground="@drawable/lucian_video"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
